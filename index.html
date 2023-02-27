@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li onclick="toggleMenu()"  class="active" ><a href="#"></a>Home</li>
+            <li onclick="toggleMenu()" ><a href="#"></a>Tours</li>
+            <li onclick="toggleMenu()" ><a href="#"></a>Explore</li>
+            <li onclick="toggleMenu()" ><a href="#"></a>About</li>
+            <li onclick="toggleMenu()"   class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn" onclick="toggleMenu()">
+    </nav>
+
+
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1> A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./everest.jfif" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. jxjfjjdf j</p>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col">
+            <img src="./walking holidays.jfif" alt="">
+            <h4>Walking Holidays</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.jkdfjk jcfjkcjk </p>
+            <a href="#" class="ctn">Learn More</a>
+    </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio consectetur, consequuntur repudiandae atque, ducimus nulla reprehenderit quaerat</p>
+        <a href="#" class="ctn" >Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOUURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptatum tempora velit aliquam eveniet, quibusdam error quasi totam maiores reiciendis unde suscipit minima possimus pariatur accusamus temporibus ratione, asperiores sint.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img1.jpg" alt="">
+                    <img src="./img2.jpg" alt="">
+                    <img src="./img3.jpg" alt="">
+                    <img src="./img4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>8607 east old maple, TerreHaute 86701, IN, USA | Phone: 800-222-3839 | Email: jistmeofficial@gmail.com</p>
+        <p>Copyright &copy; 2023 Babytush </p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        const toggleMenu = () => {
+            navlinks.classList.toggle('mobile-menu')
+        }
+
+        // menuBtn.addEventListener('click', () => {
+           
+        // })
+    
+    </script>
+
+
+</body>
+</html>
